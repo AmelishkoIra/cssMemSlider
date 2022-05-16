@@ -28,8 +28,7 @@ body {
 }
 
 .button:active {
-    background-color: blueviolet;
-        
+    background-color: blueviolet;        
 }
 
 input[name='b'] {
