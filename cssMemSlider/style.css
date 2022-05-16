@@ -2,7 +2,7 @@ body {
     background-color: aliceblue;
 }
 
-.memslader {
+.memslader {    
     width: 700px;
     height: 500px;
     overflow: hidden;
@@ -10,7 +10,6 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
-
 
 .button{
     cursor: pointer;
@@ -28,7 +27,17 @@ body {
     background-color: blue;
 }
 
+.button:active {
+    background-color: blueviolet;
+        
+}
+
 input[name='b'] {
+    position: absolute;
+    visibility: hidden;
+}
+
+input[name='t'] {
     position: absolute;
     visibility: hidden;
 }
@@ -66,8 +75,7 @@ input[name='b'] {
 
 .text {
     width: 25%;
-    transition: all .6s ease;
-    border: 1px solid #bbb;
+    transition: all .6s ease;    
 }
 
 .text div {
@@ -79,9 +87,8 @@ input[name='b'] {
     width: 100px;
     height: 70px;
     margin-left: auto;
-    margin-right: auto;    
+    margin-right: auto;       
 }
-
 
 #b1:checked ~ .s1 {
     margin-left: 0;
@@ -98,3 +105,4 @@ input[name='b'] {
 #b4:checked ~ .s1 {
     margin-left: -75%;
 }
+
